@@ -10,9 +10,12 @@ sudo systemctl start ssh
 sudo systemctl enable ssh
 
 # 壁紙チェンジャー
-sudo apt install variety
+sudo apt install -y variety wallch
 sudo apt update
+sudo apt install -y vlc
+
 COMMENTOUT
 
+sudo add-apt-repository ppa:nemonein/bomi
 sudo apt update
-echo 1896 | sudo -S apt install wallch -y
+sudo apt-get install bomi -y
