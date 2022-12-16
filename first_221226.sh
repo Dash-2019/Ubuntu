@@ -10,7 +10,10 @@ sudo systemctl start ssh
 sudo systemctl enable ssh
 
 # 壁紙チェンジャー
-sudo apt install -y variety wallch
+
+sudo add-apt-repository ppa:variety/stable
+sudo apt update && sudo apt install -y variety variety-slideshow
+
 sudo apt update
 sudo apt install -y vlc
 
