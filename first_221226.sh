@@ -14,8 +14,13 @@ sudo apt install -y variety wallch
 sudo apt update
 sudo apt install -y vlc
 
-COMMENTOUT
-
+#bomi Player
 sudo add-apt-repository ppa:nemonein/bomi
 sudo apt update
 sudo apt-get install bomi -y
+
+#share共有フォルダ
+sudo apt install -y samba vim
+
+COMMENTOUT
+
