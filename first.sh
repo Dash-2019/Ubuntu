@@ -1,7 +1,5 @@
 #!/bin/bash
 
-echo installing package 21/03/27
-
 << COMMENTOUT
 
 # SSH Server
