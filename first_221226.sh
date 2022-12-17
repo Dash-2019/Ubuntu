@@ -29,5 +29,10 @@ sudo apt install -y samba vim
 sudo apt update
 sudo apt install darktable
 
+#Autokey
+sudo add-apt-repository ppa:sporkwitch/autokey
+sudo apt update
+sudo apt install autokey-gtk
+
 COMMENTOUT
 
