@@ -25,5 +25,9 @@ sudo apt-get install bomi -y
 #share共有フォルダ
 sudo apt install -y samba vim
 
+#Photo
+sudo apt update
+sudo apt install darktable
+
 COMMENTOUT
 
