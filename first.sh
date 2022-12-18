@@ -32,5 +32,7 @@ sudo add-apt-repository ppa:sporkwitch/autokey
 sudo apt update
 sudo apt install autokey-gtk
 
+sudo apt install -y telegram-desktop
+
 COMMENTOUT
 
